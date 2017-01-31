@@ -1,9 +1,9 @@
 /**
  * Created by Agnieszka on 28/01/17.
  */
-public class Bike //extends Vehicle
+public class Bike extends Vehicle
 {
-/*
+
                                                         // CONSTRUCTOR
 
     public          Bike        (String brand, Color color, float prix)
@@ -34,6 +34,6 @@ public class Bike //extends Vehicle
                                                         }
 
 
-*/
+
 
 } //

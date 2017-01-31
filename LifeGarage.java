@@ -12,7 +12,7 @@ public class LifeGarage  {
 
         Car car1 = new Car("Renault   ", Color.RED, 999.9F);
 
-        System.out.println(car1.toString());
+        //System.out.println(car1.toString());
 
 
         Garage garage1 = new Garage("Simplon");
@@ -26,10 +26,10 @@ public class LifeGarage  {
         garage1.getList().addElement(car3);
         garage1.getList().addElement(car4);
 
-        System.out.println();
-        System.out.println(garage1.toString());
+        //System.out.println();
+        //System.out.println(garage1.toString());
 
-        /* // DEUXIEME PARTIE
+        // DEUXIEME PARTIE
 
         Bike bike1 = new Bike ("Harley    ", Color.RED, 800F);
         Bike bike2 = new Bike ("Ducati    ", Color.BLUE, 1000F);
@@ -41,7 +41,7 @@ public class LifeGarage  {
 
 
         System.out.println(garage1.toString());
-*/
+
 
     }
 

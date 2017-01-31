@@ -9,8 +9,8 @@ public class Garage {
 
                                 // ATTRIBUTS
     private String nom;
-    private Vector <Car> list;
-    //private Vector <Vehicle> list;
+    // private Vector <Car> list;
+    private Vector <Vehicle> list;
     //private ArrayList <Car> list;
     // private ArrayList <Vehicle> list;
 
@@ -20,8 +20,8 @@ public class Garage {
     public      Garage          (String nom)
                                                                 {
                                                                     this.nom = nom;
-                                                                    list = new Vector<Car>();
-                                                                    //list = new Vector<Vehicle>();
+                                                                    // list = new Vector<Car>();
+                                                                    list = new Vector<Vehicle>();
                                                                     //list = new ArrayList<Car>();
                                                                     //list = new ArrayList<Vehicle>();
                                                                 }
@@ -30,10 +30,10 @@ public class Garage {
                                                 // GETTERS & SETTERS
 
     public String         getNom()                              { return nom; }
-    public Vector<Car>    getList()                           { return list; }
-   public void           setList  (Vector<Car> list)          { this.list = list; }
-   //public Vector<Vehicle>    getList()                          { return list; }
-   //public void           setList  (Vector<Vehicle> list)        { this.list = list; }
+   // public Vector<Car>    getList()                           { return list; }
+  // public void           setList  (Vector<Car> list)          { this.list = list; }
+   public Vector<Vehicle>    getList()                          { return list; }
+   public void           setList  (Vector<Vehicle> list)        { this.list = list; }
   //public ArrayList<Car> getList()                             { return list; }
   //public void           setList  (ArrayList<Car> list)        { this.list = list; }
   //public ArrayList<Vehicle> getList()                         { return list; }
@@ -57,11 +57,11 @@ public class Garage {
                                                 // OTHER METHODS
 
 
-   public Car    returnCar   (int index)                     { return this.list.get(index); }
-   public void   addCar      (Car car)                       { this.list.add(car); }
+   //public Car    returnCar   (int index)                     { return this.list.get(index); }
+   //public void   addCar      (Car car)                       { this.list.add(car); }
 
-    //public Vehicle  returnCar   (int index)                     { return this.list.get(index); }
-    //public void     addCar      (Vehicle veh)                   { this.list.add(veh); }
+    public Vehicle  returnCar   (int index)                     { return this.list.get(index); }
+    public void     addCar      (Vehicle veh)                   { this.list.add(veh); }
 
 
 

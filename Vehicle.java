@@ -5,7 +5,7 @@ import java.awt.*;
  */
 public abstract class Vehicle {
 
-    /*
+
 
                                     // ATRIBUTES
     protected String brand;
@@ -32,6 +32,6 @@ public abstract class Vehicle {
                                     // OTHER METHODS
     public abstract float getPriceWithTax();
 
-*/
+
 
 } //
